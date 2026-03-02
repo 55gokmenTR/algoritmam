@@ -1,0 +1,21 @@
+pazar:
+  baslangic: soru_1
+  
+  soru_1:
+    metin: "Yatmadan önceki son saatler mi?"
+    evet: aksiyon_plan
+    hayir: soru_2
+
+  soru_2:
+    metin: "Saat 14:00'i geçti mi?"
+    evet: aksiyon_ders
+    hayir: aksiyon_kahve
+
+  aksiyon_plan:
+    sonuc: "Haftalık planını yap! 📝"
+
+  aksiyon_ders:
+    sonuc: "Ruby çalış! 💎"
+
+  aksiyon_kahve:
+    sonuc: "Kahve iç ve kitap oku. ☕"
